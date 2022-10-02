@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
   
   <title>Frontend Mentor | NFT preview card component</title>
   
@@ -12,15 +24,15 @@
 <body>
   <div class="container" alt="main=container">
     <main class="image-container" alt="image-container">
-      <img src="./images/image-equilibrium.jpg" alt="main-image">
+      <img src="./images/image-equilibrium.jpg" class="main-image" alt="main-image">
       <div>
         <img src="./images/icon-view.svg"> 
       </div>
     </main>
     
-    <article class="description" alt="description">
+    <article class="description-section" alt="description-section">
       <h1>Equilibrium #3429</h1>
-      <p>Our Equilibrium collection promotes balance and calm.</p>
+      <p class="description">Our Equilibrium collection promotes balance and calm.</p>
     </article>
 
     <div class="price-days" alt="price-and-days-left">
@@ -36,7 +48,7 @@
     
     <author class="creator" alt="creator">
       <img src="./images/image-avatar.png" class="avatar" alt="creator-picture">
-      Creation of Jules Wyvern
+      Creation of <span> Jules Wyvern</span>
     </author>
     
     <div class="attribution">
